@@ -1,5 +1,5 @@
 FROM maven:3-jdk-8
 
 COPY . .
-RUN cd  && mvn package
+RUN cd /src/main/webapp/META-INF/maven/kakeibo/kakeibo && mvn package
 CMD ["java","-jar","simple/target/simple-1.0-SNAPSHOT.jar"]
