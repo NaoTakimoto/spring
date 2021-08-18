@@ -6,9 +6,6 @@ on:
   push:
     branches: [ main ]
 
-  #[アクション]タブからこのワークフローを手動で実行できる
-  workflow_dispatch:
-
 jobs:
   build:
     # ジョブが実行されるランナーのタイプ
@@ -35,4 +32,3 @@ jobs:
         run: |
           docker build -t n148/springapp:latest . 
           docker push n148/springapp：latest
-          
