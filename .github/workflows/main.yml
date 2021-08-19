@@ -5,6 +5,9 @@ on:
   # プッシュリクエストイベントでメインブランチに対してワークフローをトリガーする
   push:
     branches: [ main ]
+    
+  #[アクション]タブからこのワークフローを手動で実行できる
+  workflow_dispatch:
 
 jobs:
   build:
