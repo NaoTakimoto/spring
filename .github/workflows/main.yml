@@ -25,7 +25,7 @@ jobs:
             java-version: '11'
 
       - name: Maven purge
-        working-directory: ./src/main/webapp/META-INF/maven/kakeibo/kakeibo
+        working-directory: ./src/main/webapp/META-INF/maven/kakeibo/kakeibo/pom.xml
         run: ./mvnw dependency:purge-local-repository -DreResolve=false
 
       - name: Build and Test with Maven
