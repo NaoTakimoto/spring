@@ -28,7 +28,7 @@ jobs:
         run: mvn dependency:purge-local-repository -DreResolve=false --file src/main/webapp/META-INF/maven/kakeibo/kakeibo/pom.xml
 
       - name: Build and Test with Maven
-        run: mvn -B package --file src/main/webapp/META-INF/maven/kakeibo/kakeibo/pom.xml
+        run: mvn clean package -f src/main/webapp/META-INF/maven/kakeibo/kakeibo/pom.xml
 
 
 
