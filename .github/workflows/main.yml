@@ -4,7 +4,7 @@ name: springapp
 on:
   # プッシュリクエストイベントでメインブランチに対してワークフローをトリガーする
   push:
-    branches: [ main ]
+    branches: [ master ]
     
   #[アクション]タブからこのワークフローを手動で実行できる
   workflow_dispatch:
