@@ -22,6 +22,7 @@
 	<a href ="/kakeibo/inputBudget">目標額入力</a><br>
 	<a href ="/kakeibo/searchBudget">目標額と実績額の比較</a><br>
 		
+		
 	<h2>検索結果</h2>
 	
 	<p>日付<br>
