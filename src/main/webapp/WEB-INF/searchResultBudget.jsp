@@ -17,6 +17,7 @@
 	<input type="submit" name="logout" value="ログアウト">
 </form:form><br>
 
+
 	<a href ="/kakeibo/input">実績額入力</a><br>
 	<a href ="/kakeibo/search">実績額検索</a><br>
 	<a href ="/kakeibo/inputBudget">目標額入力</a><br>
