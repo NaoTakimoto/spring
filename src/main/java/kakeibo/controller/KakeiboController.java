@@ -26,6 +26,7 @@ import kakeibo.service.PerformanceService;
 import kakeibo.service.UserService;
 
 
+
 @Controller
 public class KakeiboController {
 
