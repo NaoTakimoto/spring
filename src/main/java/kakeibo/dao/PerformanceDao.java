@@ -90,7 +90,7 @@ public class PerformanceDao {
 		for(Map<String, Object> eachPerformance: performances) {
 			Performance performance = new Performance(
 	                    (int) eachPerformance.get("categoryid")
-	                    ,(int)Math.toIntExact((long) eachPerformance.get("sum"))
+	                    ,Math.toIntExact((long) eachPerformance.get("sum"))
 			);
 			performanceList.add(performance);
 		}
