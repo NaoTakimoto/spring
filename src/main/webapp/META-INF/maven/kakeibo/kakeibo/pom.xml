@@ -42,7 +42,7 @@
           <archive>
             <manifest>
               <addClasspath>true</addClasspath>
-              <mainClass>main.java.kakeibo.controller.KakeiboController</mainClass>
+              <mainClass>kakeibo.controller.KakeiboController</mainClass>
             </manifest>
           </archive>
         </configuration>
