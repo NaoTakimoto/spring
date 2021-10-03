@@ -16,7 +16,7 @@ public class UserDao {
 
 	//ユーザー取得
 	public User getUser(int userId)  {
-		String sql = "SELECT * FROM useres WHERE userid = ?";
+		String sql = "SELECT * FROM users WHERE userid = ?";
 		Map<String, Object> oneUser = jdbcTemplate.queryForMap(sql, userId);
 
 		User user = new User();

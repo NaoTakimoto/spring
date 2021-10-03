@@ -42,7 +42,7 @@
           <archive>
             <manifest>
               <addClasspath>true</addClasspath>
-              <mainClass>kakeibo.controller.KakeiboController</mainClass>
+              <mainClass>org.springframework.web.servlet.DispatcherServlet</mainClass>
             </manifest>
           </archive>
         </configuration>
