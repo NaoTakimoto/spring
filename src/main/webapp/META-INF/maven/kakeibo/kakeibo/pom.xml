@@ -42,7 +42,7 @@
           <archive>
             <manifest>
               <addClasspath>true</addClasspath>
-              <mainClass>org.springframework.web.context.ContextLoaderListener</mainClass>
+              <mainClass>org.springframework.web.filter.CharacterEncodingFilter</mainClass>
             </manifest>
           </archive>
         </configuration>
