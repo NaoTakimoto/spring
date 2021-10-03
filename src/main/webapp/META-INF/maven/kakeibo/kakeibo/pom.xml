@@ -42,7 +42,7 @@
           <archive>
             <manifest>
               <addClasspath>true</addClasspath>
-              <mainClass>com.example.demo.controller.HomeController.confirm</mainClass>
+              <mainClass>org.springframework.web.context.ContextLoaderListener</mainClass>
             </manifest>
           </archive>
         </configuration>
