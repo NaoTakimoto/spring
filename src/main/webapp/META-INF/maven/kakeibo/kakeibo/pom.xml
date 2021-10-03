@@ -42,7 +42,7 @@
           <archive>
             <manifest>
               <addClasspath>true</addClasspath>
-              <mainClass>org.springframework.web.servlet.DispatcherServlet</mainClass>
+              <mainClass>com.example.demo.controller.HomeController.confirm</mainClass>
             </manifest>
           </archive>
         </configuration>
