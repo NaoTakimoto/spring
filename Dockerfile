@@ -1,7 +1,7 @@
 FROM centos:7
 
 RUN curl -O http://ftp.riken.jp/net/apache/tomcat/tomcat-9/v9.0.0.M21/bin/apache-tomcat-9.0.0.M21.tar.gz
-RUN tar zxf apache-tomcat-9.0.54.tar.gz
+RUN tar -xzvf ~/apache-tomcat-9.0.0.M21.tar.gz
 RUN mv ~/apache-tomcat-9.0.0.M21 /opt
 
 RUN yum install -y java
