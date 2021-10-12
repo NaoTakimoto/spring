@@ -1,5 +1,5 @@
 # FROM centos:7
-FROM tomcat：9.0-jdk16
+FROM tomcat:9.0-jdk16
 
 # RUN curl -O http://ftp.riken.jp/net/apache/tomcat/tomcat-9/v9.0.0.M21/bin/apache-tomcat-9.0.0.M21.tar.gz
 # RUN tar zxvf apache-tomcat-9.0.0.M21.tar.gz
