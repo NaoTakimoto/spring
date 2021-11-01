@@ -4,7 +4,8 @@ name: springapp
 on:
   # プッシュリクエストイベントでメインブランチに対してワークフローをトリガーする
   push:
-    branches: [ master ]
+    branches:
+      - 'master'
     tags:
       - 'v*'
     
