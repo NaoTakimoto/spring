@@ -38,7 +38,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v3
         with:
-        images: n148/springapp
+          images: n148/springapp
 
 
        # DockerHub ログイン
